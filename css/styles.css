@@ -1,21 +1,35 @@
-/*PARA TODA LA PÁGINA */
+/* 1. TODA LA PÁGINA */
 body {
   font-family: "Arvo", serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px; 
+  margin: 0;
+  padding: 0;
 
+  /* fondo*/
   background-image: url('../img/fondo.png'); 
   background-repeat: repeat;
   background-attachment: fixed;
 }
 
-/*PARA LOS TÍTULOS */
+/*2. LA CAJA CONTENEDORA TRANSPARENTE*/
+.contenedor-principal {
+  background-color: rgba(255, 255, 255, 0.85);
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+/*3.TÍTULOS*/
 h1 {
   font-family: "Arvo", serif;
   font-weight: 700;
   font-style: normal;
   font-size: 2.5rem;
+  margin-top: 20px;
 }
 
 h2 {
@@ -23,4 +37,39 @@ h2 {
   font-weight: 700;
   font-style: normal;
   font-size: 2rem;
+  margin-top: 30px;
+}
+
+blockquote {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  padding: 20px 0;
+  margin: 0;
+  text-align: center;
+}
+
+/* 4. MENÚ NAVEGACIÓN */
+nav {
+  width: 100%;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333333;
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #000000; 
+}
+
+/*5. IMÁGENES*/
+img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
 }
