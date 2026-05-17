@@ -1,5 +1,4 @@
 # parcial
-pacial primer cuatrimestre infogral
-Sofía Barrios
-Primer Parcial - Informática General 
+Sofía Barrios <br>
+Primer Parcial - Informática General <br>
 Artes Multimediales - UNA

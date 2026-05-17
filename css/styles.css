@@ -44,32 +44,59 @@ blockquote {
   display: flex;
   flex-direction: column; 
   align-items: center;
-  padding: 20px 0;
-  margin: 0;
+  padding: 25px 30px;
+  margin: 20px 0 30px 0;
   text-align: center;
+  background-color: #0D364C;
+  color: #E6F0F5;
+  font-size: 1.2rem;
+  border-radius: 6px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 /* 4. MENÚ NAVEGACIÓN */
 nav {
   width: 100%;
+  margin-bottom: 30px;
+  background-color: #4C230D;
+  border-radius: 6px;
+  padding: 15px 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 nav a {
   text-decoration: none;
-  color: #333333;
-  font-size: 0.9rem;
+  color: #448A2C;
+  font-size: 1rem;
+  font-weight: 700;
   letter-spacing: 2px;
+  text-transform: uppercase;
   transition: 0.3s;
 }
 
 nav a:hover {
-  color: #000000; 
+  color: #732C8A;
 }
 
-/*5. IMÁGENES*/
+/*5. IMAGEN Y VIDEITO*/
 img {
   display: block;
   margin: 20px auto;
   max-width: 100%;
   height: auto;
+}
+
+.video {
+    display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  max-width: 100%;
 }
